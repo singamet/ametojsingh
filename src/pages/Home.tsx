@@ -7,18 +7,20 @@ export default function Home() {
     setTimeout(() => setIsVisible(true), 2000);
   }, []);
   return (
-    <div className="m-8 flex flex-col border-t-2 border-t-zinc-400 dark:border-t-zinc-800">
+    <div className="mx-6 mt-8 flex max-h-[calc(100vh-32px)] flex-col overflow-y-auto border-t-2 border-t-zinc-400 lg:mx-8 dark:border-t-zinc-800">
       <div className="w-full px-8">
         <h4 className="text-lg font-semibold text-zinc-500">{"< ICode />"}</h4>
       </div>
-      <div className="flex w-full items-baseline gap-4 py-8 ps-4 pe-8 lg:py-24 lg:ps-24">
+      <div className="flex w-full flex-col items-baseline gap-4 py-8 ps-4 pe-8 lg:flex-row lg:py-24 lg:ps-24">
         <p className="text-lg lg:text-2xl">Hi. This is </p>
-        <h1 className="text-3xl tracking-widest text-zinc-900 lg:text-6xl dark:text-zinc-200">
-          AMETOJ
-        </h1>
-        <h1 className="text-3xl font-bold tracking-widest text-zinc-600 lg:text-6xl dark:text-zinc-500">
-          SINGH
-        </h1>
+        <div className="flex">
+          <h1 className="text-3xl tracking-widest text-zinc-900 lg:text-6xl dark:text-zinc-200">
+            AMETOJ
+          </h1>
+          <h1 className="text-3xl font-bold tracking-widest text-zinc-600 lg:text-6xl dark:text-zinc-500">
+            SINGH
+          </h1>
+        </div>
       </div>
       <TypeAnimation
         sequence={[
