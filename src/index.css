@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-fade-in-scale: fade-in-scale 0.5s ease-in-out;
+  --animate-fade-in-slide: fade-in-slide 0.5s ease-out;
+  --animate-slide-from-bottom: slide-from-bottom 1s ease-out;
+  --animate-width-slide: width-slide 3s ease-out;
+  --animate-slow-slide: slow-slide 1s ease-out;
+
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes fade-in-slide {
+    0% {
+      opacity: 0;
+      transform: translateX(-30%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  @keyframes slide-from-bottom {
+    0% {
+      opacity: 0;
+      width: 50%;
+    }
+    100% {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+  @keyframes slow-slide {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @keyframes width-slide {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+}
