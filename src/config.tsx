@@ -68,6 +68,21 @@ export const projects = [
     link: "https://singametfoodapp.netlify.app/",
   },
   {
+    title: "More Brain",
+    description:
+      "A second brain app. Grow your knowledge base, add important links to come back to and share with others.",
+    tech: ["React", "Typecript", "MongoDB", "Express JS", "Json Web Tokens"],
+    images: [
+      "./images/more-brain.png",
+      "./images/brain1.png",
+      "./images/brain2.png",
+      "./images/brain3.png",
+      "./images/brain4.png",
+      "./images/brain5.png",
+    ],
+    link: "https://more-brain.vercel.app/shared/1a4cdcf68342f83",
+  },
+  {
     title: "Sudoku",
     description:
       "Sudoku made simple—just you, the grid, and endless number-crunching fun!",
