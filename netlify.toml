@@ -10,6 +10,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://ametojsingh-new.netlify.app/:splat"
+  to = "https://singamet.netlify.app/:splat"
   status = 301
   force = true
