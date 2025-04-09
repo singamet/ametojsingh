@@ -9,7 +9,7 @@
   status = 200
 
 [[redirects]]
-  from = "/*"
+  from = "https://ametojsingh.netlify.app/"
   to = "https://singamet.netlify.app/:splat"
   status = 301
   force = true
